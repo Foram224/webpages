@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>sample website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}   
+
+body {
+  margin: 0;
+  background-color: rgb(61, 65, 68);
+}
+
+
+.header {
+    border-image-width: 100%;
+   background-image: url("pexels.jpeg") ;
+    padding: 35px;
+    text-align: center;
+    object-fit:cover; 
+}
+
+.top {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.top a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.top a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.reg {
+    
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+.foot{
+
+    background-color: black;
+    text-align:center;
+   
+    
+}
+.foot1{
+    margin-top: 5%;
+    color: rgb(143, 138, 138);
+    padding: 5%;
+    font-size: 25px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header><div class="header">
+    <h1>Sample website</h1>
+  </div></header>
+
+
+<div class="top">
+    
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="index.html">Register</a>
+</div>
+
+<div class = "reg">
+        <form name "Regform" method="post" action="f1.html">
+          <label for="fname">First Name</label>
+          <input type="text" value="" id="fname" name="firstname" placeholder="Your name.." required>
+            <br>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            <br>
+          <label for="country">Country</label> &nbsp;&nbsp;&nbsp;
+          <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="canada">Canada</option>
+            <option value="Maxico">Maxico</option>
+          </select>
+            <br> <br>
+            <label for="Gender">Gender</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="radio" id="gender" name="gender" value="Male" checked>
+           
+           <label for="male"> Male</label>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <input type="radio" id="gender" name="gender" value="Female">
+            <label for="Female">Female</label>
+            <br><br>
+            <label >Email</label>
+            &nbsp; &nbsp;&nbsp; <input type="text" id="email" name="mail" required>
+            <br>
+
+         &nbsp; 
+         <input type="submit" value="Submit">
+          
+        </form>
+      </div>
+
+<footer>
+        <div class = foot>
+                <div class = foot1> Contact
+                    <br> Foram Patel
+                    <br> foram.224.patel@gmail.com
+                </div>
+                
+            </div>
+    @forampatel
+</footer> 
+</body>
+
+</html>
